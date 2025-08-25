@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -135,3 +136,142 @@ p {
   margin-left: 160px;
    padding: 10px;
 }
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* menu bar start */
+.tour {
+  background-image: url("../img/banner.png");
+  height: 70vh;
+  background-size: cover;
+  object-fit: cover;
+  /* border: 1px solid; */
+  /* position: relative; */
+  padding-bottom: 10px 10px;
+  background-attachment: fixed;
+  position: relative;
+}
+.viewpoint {
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  background-color: #0c3c60;
+  position: sticky;
+
+  top: 0;
+}
+.viewpoint > ul > li {
+  /* border: 1px solid; */
+  width: 100px;
+  padding: 0px;
+  display: inline;
+  margin: 10px 10px;
+  z-index: 0;
+}
+.viewpoint > li,
+a {
+  padding: 10px 10px;
+  margin: 10px 10px;
+  text-decoration: none;
+  color: white;
+  font-family: "Cormorant", serif;
+  font-weight: bolder;
+}
+.viewpoint > h1 {
+  color: whitesmoke;
+}
+/* menu bar end */
+
+/* content start*/
+.menu {
+  /* border: 1px solid; */
+  width: 800px;
+  height: 400px;
+  /* margin: 250px auto;  */
+  /* padding-bottom: px; */
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  text-align: center;
+  background-color: white;
+}
+section > h3 {
+  line-height: 100px;
+  word-spacing: 0px;
+  font-family: "Mozilla Headline", sans-serif;
+}
+section > h1 {
+  word-spacing: 10px;
+  font-size: 4em;
+}
+section > a {
+  padding: 10px 10px;
+  border: 1px solid;
+  line-height: 190px;
+  color: rgb(15, 77, 156);
+  font-size: 2em;
+}
+.box {
+  /* border: 1px solid; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 5% 0;
+}
+.box1 {
+  /* border: 1px solid; */
+  width: 400px;
+  height: 200px;
+}
+.box1 > h1,
+p {
+  text-align: center;
+  padding: 10px;
+}
+.box > h1 {
+  line-height: 5px;
+}
+.box2 {
+  /* border: 1px solid; */
+  width: 400px;
+  height: 200px;
+}
+.box2 > h1,
+p {
+  text-align: center;
+  padding: 10px;
+}
+.box3 {
+  /* border: 1px solid; */
+  width: 400px;
+  height: 200px;
+}
+.box3 > h1,
+p {
+  text-align: center;
+  padding: 10px;
+}
+.div{
+  border: 1px solid;
+}
+.box1 > button {
+  border-color: aqua;
+  color: rgb(1, 5, 5);
+  background-color: rgb(240, 247, 247);
+  margin-left: 160px;
+  padding: 10px;
+}
+.box2 > button {
+  margin-left: 160px;
+   padding: 10px;
+}
+.box3 > button {
+  margin-left: 160px;
+   padding: 10px;
+}
+>>>>>>> 47cb1a8c5e730c5f1f24edf8148a5eba0515ffc9

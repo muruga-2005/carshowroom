@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -24,3 +25,106 @@
 .car0{
     border: 1px solid green;
 }
+=======
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.car{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(159, 247, 247);
+    /* position: fixed; */
+    position: sticky;
+    top: 0;
+   
+}
+.car>img{
+    width: 10%;
+    object-fit: cover;
+}
+.car>ul{
+    /* border: 1px solid red; */
+    padding: 10px 10px ;
+    margin: 10px 10px;
+}
+ul>li,a{
+    text-decoration: none;
+    margin: 10px 10px;
+    color: rgb(12, 1, 1);
+}
+.car>ul>li{
+    border: 1px solid;
+    width: 100px;
+    display: flex;
+    align-items: center;
+     list-style-type: none;
+     display: inline;
+     /* text-decoration: none; */
+     border-radius: 10px;
+     background-color: rgb(219, 85, 7);
+
+}
+.roller{
+    /* border: 1px solid rebeccapurple; */
+    text-align: center;
+     display: flex;
+    flex-wrap: wrap;
+    padding: 60px 60px;
+  
+}
+button{
+    /* background-color: rgb(42, 80, 4); */
+    font-style: italic;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+button:hover{
+    background-color: rgb(3, 82, 6);
+    transition: 1s;
+}
+.car1{
+    border: 1px solid rgb(0, 0, 0);
+    width: 350px ;
+    height: 350px;
+    margin: 50px 50px;
+    /* padding: 10px 10px; */
+    margin-right: 10px;
+    align-content: stretch;
+
+}
+.car1>img:hover{
+    filter: grayscale(0);
+    transform: scale(1.2) rotate(1deg);
+}
+.car1>img{
+    /* border: 1px solid red; */
+    width: 100%;
+}
+.car1>h2{
+    margin-top: 10px;
+}
+h2:hover{
+    color: blue;
+}
+.car1>h4{
+    margin-top: 10px;
+}
+h4:hover{
+    color: rgb(211, 62, 62);
+}
+.car1>button{
+    margin-top: 45px;
+}
+.div{
+    border: 1px solid ;
+    position: relative;
+    
+}
+.div>img{
+    width: 100%;
+}
+>>>>>>> 47cb1a8c5e730c5f1f24edf8148a5eba0515ffc9
